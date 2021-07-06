@@ -36,7 +36,7 @@ h1 span {
 p {
   color: dimgray;
 }
-.dream-area {
+.bio-area {
   background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
@@ -44,37 +44,42 @@ p {
 h2 {
   font-size: 40px;
 }
-.experience-area {
+.recepiece-area {
   background-image: url("images/exp-bg.png");
   background-repeat: no-repeat;
   background-position: left;
 }
-.experience-area h3 {
+.recepiece-area h3 {
   color: orange;
 }
 
-.experience-area div {
-  box-shadow: 5px 7px 40px gray;
+.recepiece-area div {
+  box-shadow: 5px 7px 40px 40px rgb(216, 208, 208);
   height: 80%;
 }
 
-footer  {
+footer {
   text-align: center;
+  background-color: black;
+  color: white;
+  background-size: 300px 100px;
 }
 .central-text {
   text-align: center;
   border-bottom: 100px;
 }
 .recepie-photo {
-  
   border-left: 7px solid;
-  border-image: linear-gradient(180deg, rgb(225, 225, 238), rgb(216, 221, 221));
+  border-image: linear-gradient(white, white);
   border-image-slice: 1;
-border-radius: 10px;
-    max-width: 25%;
-    
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-  }
+  border-radius: 45px;
+  max-width: 25%;
+
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.photo-section {
+  width: 100%;
+  height: 60%;
 }
